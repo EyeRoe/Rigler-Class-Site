@@ -1,0 +1,26 @@
+/* html, body, #root{
+  height: 100%;
+  background-color: orange;
+} */
+
+.App {
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  background-color: orange;
+}
+
+.App-header {
+  background-image: url('assets/beach.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #723910;
+  height: 10em;
+  width: 100%;
+}
+
+h1{
+  font-family: 'Libre Franklin', sans-serif;
+  color: aquamarine;
+}
