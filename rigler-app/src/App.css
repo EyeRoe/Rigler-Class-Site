@@ -1,27 +1,38 @@
-/* html, body, #root{
+html, body, #root{
   height: 100%;
+  /* margin-top: 0; */
   background-color: orange;
-} */
+  background-image: url('assets/kayak.jpeg');
+  background-size: cover;
+}
 
 .App {
   text-align: center;
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
-  background-color: orange;
+  background-color: transparent;
 }
 
 .App-header {
-  background-image: url('assets/beach.jpg');
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-color: #723910;
-  height: 175px;
+  background-color: rgba(186, 39, 32, 0.7);
+  /* height: 175px; */
   width: 100%;
 }
 
 h1{
   font-family: 'Libre Franklin', sans-serif;
-  color: aquamarine;
-  height: inherit;
+  color: #FCFDFD;
+}
+
+h2{
+  color: #FCFDFD;
+}
+
+.btn{
+  padding: 1em;
+  margin: 5px;
+  border-radius: 5px;
+}
+a{
+  color: inherit;
 }

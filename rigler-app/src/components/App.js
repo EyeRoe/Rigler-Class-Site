@@ -13,7 +13,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header text="Beep Boop" />
+        <Header />
         <Sidebar />
         <Switch>
           <Route path='/aboutme' component={AboutMe} />

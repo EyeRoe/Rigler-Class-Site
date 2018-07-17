@@ -5,12 +5,12 @@ class Sidebar extends Component {
   render() {
     return (
       <div className="App-sidebar">
-        <button><Link to='/'>Home</Link></button>
-        <button><Link to='/aboutme'>About Me</Link></button>
-        <button><Link to='/ali'>ALI</Link></button>
-        <button><Link to='/growbeasts'>Grow Beasts</Link></button>
-        <button><Link to='/mathematizing'>Mathematizing</Link></button>
-        <button><Link to='/resources'>Resources</Link></button>
+        <a class="btn btn-default"><Link to='/'>Home</Link></a>
+        <a class="btn btn-default"><Link to='/aboutme'>About Me</Link></a>
+        <a class="btn btn-default"><Link to='/ali'>ALI</Link></a>
+        <a class="btn btn-default"><Link to='/growbeasts'>Grow Beasts</Link></a>
+        <a class="btn btn-default"><Link to='/mathematizing'>Mathematizing</Link></a>
+        <a class="btn btn-default"><Link to='/resources'>Resources</Link></a>
       </div>
     )
   }
