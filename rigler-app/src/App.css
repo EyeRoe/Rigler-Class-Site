@@ -16,11 +16,12 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-color: #723910;
-  height: 10em;
+  height: 175px;
   width: 100%;
 }
 
 h1{
   font-family: 'Libre Franklin', sans-serif;
   color: aquamarine;
+  height: inherit;
 }
