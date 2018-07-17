@@ -2,22 +2,30 @@ import React, { Component } from 'react';
 import '../App.css';
 import Header from './Header';
 import Sidebar from './Sidebar';
-import AboutMe from './AboutMe';
-import {Switch, Route} from 'react-router-dom'
+import AboutMe from './AboutMe.js';
+import ALI from './ALI.js';
+import GrowBeasts from './GrowBeasts.js';
+import Mathematizing from './Mathematizing.js';
+import Resources from './Resources.js';
+import { Switch, Route } from 'react-router-dom'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Header text="Beep Boop" />
-        <Sidebar className="App-sidebar">
-          <p>bloop</p>
-        </Sidebar>
-        <p className="App-intro">
-          I am Mary's Website
-        </p>
+        <Sidebar />
         <Switch>
-          <Route path='/aboutme' Component={AboutMe} />
+          <Route path='/aboutme' component={AboutMe} />
+          <Route path='/ali' component={ALI} />
+          <Route path='/growbeasts' component={GrowBeasts} />
+          <Route path='/mathematizing' component={Mathematizing} />
+          <Route path='/resources' component={Resources} />
+          <Route exact path='/' render={() => (
+            <div>
+              <p> testing 123</p>
+            </div>
+          )} />
         </Switch>
       </div>
     );
