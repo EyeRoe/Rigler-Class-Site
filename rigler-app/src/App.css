@@ -17,7 +17,7 @@ html, body, #root{
 }
 
 .App-header {
-  background-color: rgba(186, 39, 32, 0.7);
+  background-color: rgba(0, 109, 86, 0.8);
   /* height: 175px; */
   /* width: 100%; */
   margin-left: 5em;
@@ -25,13 +25,19 @@ html, body, #root{
   border-radius: 5px;
 }
 
+.buttonRow{
+  margin: 1em;
+}
+
 h1{
   font-family: 'Libre Franklin', sans-serif;
   color: #FCFDFD;
+  /* color:black; */
 }
 
 h2{
   color: #FCFDFD;
+  /* color: black; */
 }
 h3,h4,p,li{
   color: black;
@@ -39,7 +45,7 @@ h3,h4,p,li{
 
 .btn{
   padding: 1em;
-  margin: 5px;
+  margin: 10px;
   border-radius: 5px;
   background-color: #FCFDFD;
   border-color: #FCFDFD;
@@ -54,7 +60,7 @@ a{
   background-color: rgba(148, 185, 175, 0.8);
   width: 80%;
   border-radius: 5px;
-  min-height: 50em;
+  min-height: 30em;
 
 }
 .Essay{
@@ -62,9 +68,13 @@ a{
   text-align: left;
 }
 
-.globe{
-  max-width: 50em;
-  height: auto;
+.row{
+  display: flex;
+  margin-top: 2em;
+}
+.column{
+  flex: 33.33%;
+  padding: 5px;
 }
 
 td,th{

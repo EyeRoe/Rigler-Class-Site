@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import Mary from '../assets/Mary.png';
+import actionMary from '../assets/actionMary.png';
+import Byron from '../assets/Byron.png';
 
 class AboutMe extends Component {
 
@@ -6,9 +9,20 @@ class AboutMe extends Component {
         return (
             <div className="container">
                 <div>
-                    <h2>About Me</h2>
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToHxELh2hx_D6y-cEwN0r9Dr7u_154_T6OvcfTmIC3fZhdbz35" alt="Mary's Icon"></img>
-                    <p>Mary is a perfect cinnamon roll</p>
+                    <h2>About Mary</h2>
+                    <p>Mary Rigler is an aspiring teacher in the Pacific Northwest just starting Seattle University's Master's in Teaching program. Passionate about teaching and learning from an early age, she is now studying ways to bring her enthusiasm for the natural world and to make math concepts approachable to a larger audience. She strives to teach middle school math with an engaging interdisciplinary flair.</p>
+                    <p>When not thinking about teaching, she loves reading, exploring with her dog, and making glass art.</p>
+                    <div className="row">
+                        <div className="column">
+                            <img src={Mary} alt="Mary's Icon" style={{ width: 300, height: 'auto', borderRadius: 5 }}></img>
+                        </div>
+                        <div className="column">
+                            <img src={Byron} alt="Mary's Icon" style={{ width: 300, height: 'auto', borderRadius: 5 }}></img>
+                        </div>
+                        <div className="column">
+                            <img src={actionMary} alt="Mary's Icon" style={{ width: 300, height: 'auto', borderRadius: 5 }}></img>
+                        </div>
+                    </div>
                 </div>
             </div>
         )

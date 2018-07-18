@@ -6,7 +6,7 @@ class ALI extends Component {
         return (
             <div className="container">
                 <h1>Active Learning Investigation</h1>
-                <img className="globe" src={Globe} alt="globe" />
+                <img src={Globe} alt="globe" style={{ width: 50+'%', height: 'auto' }}/>
                 <div className="title">
                     <h3>Projections Shift Perspectives</h3>
                     <h2>An Active Learning Investigation in Cartography</h2>
