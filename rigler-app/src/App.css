@@ -1,9 +1,12 @@
 html, body, #root{
   height: 100%;
   /* margin-top: 0; */
-  background-color: orange;
+  background-color: #94b9af;
   background-image: url('assets/kayak.jpeg');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .App {
@@ -16,7 +19,10 @@ html, body, #root{
 .App-header {
   background-color: rgba(186, 39, 32, 0.7);
   /* height: 175px; */
-  width: 100%;
+  /* width: 100%; */
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 5px;
 }
 
 h1{
@@ -27,6 +33,9 @@ h1{
 h2{
   color: #FCFDFD;
 }
+h3,h4,p,li{
+  color: black;
+}
 
 .btn{
   padding: 1em;
@@ -35,4 +44,39 @@ h2{
 }
 a{
   color: inherit;
+}
+
+.ALI{
+  background-color: rgba(148, 185, 175, 0.8);
+  margin-right: 5%;
+  margin-left: 5%;
+  border-radius: 5px;
+}
+.Essay{
+  margin: 1em;
+  text-align: left;
+}
+
+.globe{
+  max-width: 50em;
+  height: auto;
+}
+
+/* table{
+  color: black;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+} */
+
+td,th{
+  color: black;
+  border: solid black 1px;
+}
+
+.largeRow{
+  width: 45%;
+}
+.smallRow{
+  width: 10%
 }
