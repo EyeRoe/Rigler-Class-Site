@@ -4,7 +4,7 @@ class ALI extends Component {
 
     render() {
         return (
-            <div className="ALI">
+            <div className="container">
                 <h1>Active Learning Investigation</h1>
                 <img className="globe" src={Globe} alt="globe" />
                 <div className="title">

@@ -4,10 +4,21 @@ class GrowBeasts extends Component {
 
     render() {
         return (
-            <div className="GrowBeasts">
+            <div className="container">
                 <div>
                     <h2>Grow Beasts</h2>
-                    <p>they no like soy sauce</p>
+                    <div className="conditions">
+                    </div>
+                    <div className="measurements">
+                    </div>
+                    <div className="results">
+                    </div>
+                    <div className="story">
+                    </div>
+                    <div className="graphics">
+                    </div>
+                    <div className="graphs">
+                    </div>
                 </div>
             </div>
         )

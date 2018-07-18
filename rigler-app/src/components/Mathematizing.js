@@ -4,7 +4,7 @@ class Math extends Component {
 
     render() {
         return (
-            <div className="Math">
+            <div className="container">
                 <div>
                     <h2>Mathematizing and Sciencizing</h2>
                     <p>look around you, really look. what do you see?</p>
