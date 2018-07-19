@@ -16,16 +16,12 @@ class App extends Component {
         <Header />
         <Sidebar />
         <Switch>
-          <Route path='/aboutme' component={AboutMe} />
+          {/* <Route path='/aboutme' component={AboutMe} /> */}
           <Route path='/ali' component={ALI} />
           <Route path='/growbeasts' component={GrowBeasts} />
           <Route path='/mathematizing' component={Mathematizing} />
           <Route path='/resources' component={Resources} />
-          <Route exact path='/' render={() => (
-            <div>
-              <p> testing 123</p>
-            </div>
-          )} />
+          <Route exact path='/' component={AboutMe}/>
         </Switch>
       </div>
     );

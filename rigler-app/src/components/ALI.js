@@ -6,21 +6,21 @@ class ALI extends Component {
         return (
             <div className="container">
                 <h1>Active Learning Investigation</h1>
-                <img src={Globe} alt="globe" style={{ width: 50+'%', height: 'auto' }}/>
-                <div className="title">
-                    <h3>Projections Shift Perspectives</h3>
-                    <h2>An Active Learning Investigation in Cartography</h2>
+                <img src={Globe} alt="globe" style={{ width: 50+'%', height: 'auto',borderRadius: 5 }}/>
+                <div className="titles">
+                    <h3 className="subHeader">Projections Shift Perspectives </h3>
+                    <h3 className="subHeader">An Active Learning Investigation in Cartography</h3>
                     <p>by Mary Rigler and Dana Cavin</p>
                 </div>
                 <div className="Essay">
                     <div className="Overview">
-                        <h3>Overview</h3>
+                        <h3 className="subHeader">Overview</h3>
                         <p>Name of the investigation: Cartography – Projections Shift Perspectives</p>
                         <p>Approximate grade level or grade range: 6th – 7th grade; Math focus.</p>
                         <p>Approximate time frame for the investigation: One class period, 45-50 minutes (may expand to two periods using additional scaffolding or extensions)</p>
                     </div>
                     <div className="Summary">
-                        <h3>Summary</h3>
+                        <h3 className="subHeader">Summary</h3>
                         <p>What students will do:</p>
                         <p>Students will use their math skills of finding the area of triangles and rectangles to find the area of two land masses (continents or Greenland) on maps with two commonly used, map projections. Students will begin by finding the area of sample complex shapes by decomposing them into triangles and rectangles. Then they will work in groups of four to find the approximate area of the continental land masses and Greenland. This will require them to break up each land mass into simple shapes, find the cumulative area, and convert the area measured on the map in square centimeters to the area in square miles represented by the scale provided. They will then explore questions about map projections and how different projections impact our understanding of the relative size of the land masses.</p>
                         <p>What students will learn:</p>
@@ -32,7 +32,7 @@ class ALI extends Component {
                         </ol>
                     </div>
                     <div className="Rationale">
-                        <h3>Rationale and Relationship to Standards</h3>
+                        <h3 className="subHeader">Rationale and Relationship to Standards</h3>
                         <h4>Important Concepts & Relevant Common Core Standards</h4>
                         <div>
                             <h4>Concept 1:</h4>
@@ -66,14 +66,14 @@ class ALI extends Component {
                         </div>
                     </div>
                     <div className="Relevance">
-                        <h3>Relevance to Students' Lives</h3>
+                        <h3 className="subHeader">Relevance to Students' Lives</h3>
                         <div>
                             <p>This lesson connects to students’ lives because maps and scaled drawings are something that they have and/or will encounter in their daily lives. While this lesson focuses on finding the area of complex shapes by breaking them into simpler shapes, it has the bonus of applying this skill to real tools that are used in many fields of everyday life.</p>
                             <p>Additionally, by comparing the two projections, the students practice using critical thinking. They will be encouraged to think about how decisions made by cartographers might impact the way that we see and experience the world. This could be tied into other activities that encourage students to learn more about sources and bias. Additionally, the lesson can be linked to decisions that they make when setting up science experiments and solving real-world math problems.</p>
                         </div>
                     </div>
                     <div className="Description">
-                        <h3>Description</h3>
+                        <h3 className="subHeader">Description</h3>
                         <div>
                             <h4>Materials Needed</h4>
                             <ul>
@@ -177,11 +177,11 @@ class ALI extends Component {
                                 </table>
                             </div>
                             <div className="References">
-                                <h3>References</h3>
+                                <h3 className="subHeader">References</h3>
                                 <p>This activity was adapted from a “mathalicious” lesson <a href='http://www.mathalicious.com/lessons/cartogra-fail'> (Link)</a></p>
                             </div>
                             <div className="Assessment">
-                                <h3>Assessment</h3>
+                                <h3 className="subHeader">Assessment</h3>
                                 <div>
                                     <h4>Learning Target #1:</h4>
                                     <h4>I can find the area of a complex 2-dimensional polygon by decomposing it into smaller pieces.</h4>
@@ -214,6 +214,7 @@ class ALI extends Component {
                                 </div>
                             </div>
                             <div className="Adjustments">
+                                <h3 className="subHeader">Adjustments</h3>
                                 <p>The lesson should reflect the abilities of your students. Below are a list of considerations that may be helpful in adapting the lesson plan outlined above to meet the needs of your students.</p>
                                 <ul>
                                     <li>Measurements should be made in centimeters. Since students will be finding the approximate area, precision of measurements should reflect the level of the students. Measurements could be made to the tenths place (millimeter), ¼, or ½ centimeter.</li>

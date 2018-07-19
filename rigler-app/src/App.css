@@ -12,16 +12,17 @@ html, body, #root{
 .App {
   text-align: center;
   font-size: 16px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Noto Serif', serif;
   background-color: transparent;
 }
 
 .App-header {
+  display: flex;
+  justify-content: center
+}
+.title{
   background-color: rgba(0, 109, 86, 0.8);
-  /* height: 175px; */
-  /* width: 100%; */
-  margin-left: 5em;
-  margin-right: 5em;
+  width: 80%;
   border-radius: 5px;
 }
 
@@ -29,16 +30,10 @@ html, body, #root{
   margin: 1em;
 }
 
-h1{
-  font-family: 'Libre Franklin', sans-serif;
+h1,h2,.subHeader{
   color: #FCFDFD;
-  /* color:black; */
 }
 
-h2{
-  color: #FCFDFD;
-  /* color: black; */
-}
 h3,h4,p,li{
   color: black;
 }
@@ -51,10 +46,17 @@ h3,h4,p,li{
   border-color: #FCFDFD;
   color: black;
 }
+.btn:hover,.btn:active{
+background-color: #94b9af;
+color: #FCFDFD;
+border-color: #FCFDFD;
+text-decoration: none;
+}
 
-a{
+a, a:hover, a:active, a:visited{
   color: inherit;
 }
+
 
 .container{
   background-color: rgba(148, 185, 175, 0.8);
@@ -71,6 +73,7 @@ a{
 .row{
   display: flex;
   margin-top: 2em;
+  flex-wrap: wrap;
 }
 .column{
   flex: 33.33%;
