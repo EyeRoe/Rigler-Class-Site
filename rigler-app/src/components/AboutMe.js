@@ -14,7 +14,7 @@ class AboutMe extends Component {
                     <p>When not thinking about teaching, she loves reading, exploring with her dog, and making glass art.</p>
                     <div className="row">
                         <div className="column">
-                            <img src={Mary} alt="Mary's Icon" style={{ width: 300, height: 'auto', borderRadius: 5 }}></img>
+                            <img src={Mary} alt="Mary's Icon" style={{ width: 300, height: 'auto', borderRadius: 5}}></img>
                         </div>
                         <div className="column">
                             <img src={Byron} alt="Mary's Icon" style={{ width: 300, height: 'auto', borderRadius: 5 }}></img>
